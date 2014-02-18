@@ -20,9 +20,9 @@ SET UP FEDERATED API
 
 Note:
 
-There is a minor bug in the devstack environment when the client tries opening up the browser for third party 
+There is a minor bug in the devstack environment when the Horizon client tries opening up the browser for third party 
 authentication. Please follow the below steps until the bug is fixed
 
 1. Run the script that holds the endpoint of the IdP
-2. Select the endpoint and enter the required credentials, you can see the response being recieved 
-   by horizon and it changes the dashboard with the default permissions associated with that particular user
+2. Select the endpoint and enter the required credentials, 
+3. Then view horizon automatically login the user and changes the dashboard with the default permissions associated with that particular user
